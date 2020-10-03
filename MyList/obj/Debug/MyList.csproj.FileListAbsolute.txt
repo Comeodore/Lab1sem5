@@ -1,0 +1,7 @@
+F:\VS Projects\Lab1sem5\MyList\bin\Debug\MyList.exe.config
+F:\VS Projects\Lab1sem5\MyList\bin\Debug\MyList.exe
+F:\VS Projects\Lab1sem5\MyList\bin\Debug\MyList.pdb
+F:\VS Projects\Lab1sem5\MyList\obj\Debug\MyList.csproj.CoreCompileInputs.cache
+F:\VS Projects\Lab1sem5\MyList\obj\Debug\MyList.exe
+F:\VS Projects\Lab1sem5\MyList\obj\Debug\MyList.pdb
+F:\VS Projects\Lab1sem5\MyList\obj\Debug\MyList.csprojAssemblyReference.cache

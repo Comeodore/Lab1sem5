@@ -1,0 +1,7 @@
+F:\VS Projects\Lab1sem5\AnnularList\bin\Debug\AnnularList.exe.config
+F:\VS Projects\Lab1sem5\AnnularList\bin\Debug\AnnularList.exe
+F:\VS Projects\Lab1sem5\AnnularList\bin\Debug\AnnularList.pdb
+F:\VS Projects\Lab1sem5\AnnularList\obj\Debug\AnnularList.csprojAssemblyReference.cache
+F:\VS Projects\Lab1sem5\AnnularList\obj\Debug\AnnularList.csproj.CoreCompileInputs.cache
+F:\VS Projects\Lab1sem5\AnnularList\obj\Debug\AnnularList.exe
+F:\VS Projects\Lab1sem5\AnnularList\obj\Debug\AnnularList.pdb

@@ -1,0 +1,11 @@
+F:\VS Projects\Lab1sem5\Lab1sem5\obj\Debug\Lab1sem5.csproj.CoreCompileInputs.cache
+F:\VS Projects\Lab1sem5\Lab1sem5\bin\Debug\Lab1sem5.exe.config
+F:\VS Projects\Lab1sem5\Lab1sem5\bin\Debug\Lab1sem5.exe
+F:\VS Projects\Lab1sem5\Lab1sem5\bin\Debug\Lab1sem5.pdb
+F:\VS Projects\Lab1sem5\Lab1sem5\obj\Debug\Lab1sem5.exe
+F:\VS Projects\Lab1sem5\Lab1sem5\obj\Debug\Lab1sem5.pdb
+F:\VS Projects\Lab1sem5\Lab1sem5\bin\Debug\MyList.exe
+F:\VS Projects\Lab1sem5\Lab1sem5\bin\Debug\MyList.pdb
+F:\VS Projects\Lab1sem5\Lab1sem5\bin\Debug\MyList.exe.config
+F:\VS Projects\Lab1sem5\Lab1sem5\obj\Debug\Lab1sem5.csprojAssemblyReference.cache
+F:\VS Projects\Lab1sem5\Lab1sem5\obj\Debug\Lab1sem5.csproj.CopyComplete
