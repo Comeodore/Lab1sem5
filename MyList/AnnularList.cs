@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace MyList
 {
     public class AnnularList<T>:IEnumerable<T>
-    {
+    { 
         public Item<T> head;
         public Item<T> tail;
         int count;
@@ -16,10 +16,9 @@ namespace MyList
 
         public bool Empty { get { return count == 0; } }
 
-        public void Add(T Data)
+        public bool Add(T Data)
         {
             Item<T> newitem = new Item<T>(Data);
-
             if (head == null) // If list is empty
             {
                 head = newitem;
@@ -33,12 +32,13 @@ namespace MyList
                 tail = newitem;
             }
             count++;
+            return true;
         }
-        public string Remove(T Data)
+        public bool Remove(T Data)
         {
             Item<T> current = head;
             Item<T> previous = null;
-            if (Empty) return "List is empty";
+            if (Empty) throw new Exception("List is empty");
             do
             {
                 if (current.data.Equals(Data))
@@ -61,38 +61,37 @@ namespace MyList
                         }
                     }
                     count--;
-                    return "Item '" + Data + "' removed";
+                    return true;
                 }
                 previous = current;
                 current = current.next;
             } while (current != head);
-            return "Item '" + Data + "' not in list";
+            return false;
         }
-        public string Clear()
+        public bool Clear()
         {
             head = null;
             tail = null;
             count = 0;
-            return "Cleared";
+            return true;
         }
-        public string Contains(T Data)
+        public bool Contains(T Data)
         {
             Item<T> current = head;
-            if (current == null) return "List is empty";
+            if (current == null) throw new Exception("List is empty");
             do
             {
                 if (current.data.Equals(Data))
-                    return "Item '"+ Data + "' found";
+                    return true;
                 current = current.next;
             }
             while (current != head);
-            return "Item '" + Data + "' not found";
+            return false;
         }
         IEnumerator IEnumerable.GetEnumerator()
         {
             return ((IEnumerable)this).GetEnumerator();
         }
-
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
         {
             Item<T> current = head;

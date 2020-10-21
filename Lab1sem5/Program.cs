@@ -18,26 +18,24 @@ namespace Lab1sem5
             ts.Add("Alex");
             ts.Add("Vova");
             ts.Add("Katia");
-            Console.WriteLine("Our List:");
+            Console.WriteLine("\nOur List:");
             foreach (var item in ts)
             {
                 Console.WriteLine(item);
             }
-
             Console.WriteLine("\nList count: " + ts.Count());
-            Console.WriteLine(ts.Contains("Vova"));
-            Console.WriteLine(ts.Remove("Vova"));
-            Console.WriteLine(ts.Contains("Vova"));
-            Console.WriteLine(ts.Remove("Vova"));
+            ts.Contains("Vova");
+            ts.Remove("Vova");
+            ts.Contains("Vova");
+            ts.Remove("Vova");
             Console.WriteLine("\nList after remove");
             foreach (var item in ts)
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("\n" + ts.Clear());
+            Console.WriteLine("\n" + "Is list is empty? " + ts.Empty);
+            ts.Clear();
             Console.WriteLine("List count: " + ts.Count());
-            Console.WriteLine(ts.Remove("Vova"));
-            Console.WriteLine(ts.Contains("Vova"));
             Console.ReadLine();
         }
     }

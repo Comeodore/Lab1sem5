@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\VS Projects\\LabSharp\\Lab.Tests\\Lab.Tests.csproj": {}
+  },
+  "projects": {
+    "F:\\VS Projects\\LabSharp\\Lab.Tests\\Lab.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\VS Projects\\LabSharp\\Lab.Tests\\Lab.Tests.csproj",
+        "projectName": "Lab.Tests",
+        "projectPath": "F:\\VS Projects\\LabSharp\\Lab.Tests\\Lab.Tests.csproj",
+        "packagesPath": "C:\\Users\\Vladmier\\.nuget\\packages\\",
+        "outputPath": "F:\\VS Projects\\LabSharp\\Lab.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vladmier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\VS Projects\\LabSharp\\MyList\\MyList.csproj": {
+                "projectPath": "F:\\VS Projects\\LabSharp\\MyList\\MyList.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\VS Projects\\LabSharp\\MyList\\MyList.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\VS Projects\\LabSharp\\MyList\\MyList.csproj",
+        "projectName": "MyList",
+        "projectPath": "F:\\VS Projects\\LabSharp\\MyList\\MyList.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
